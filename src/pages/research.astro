@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Research" sideBarActiveItemID="Research">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Research</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+Here is a brief summary of my ongoing and past research:
+</div>
+
+<div class="divider my-0"></div>
+ <HorizontalCard
+    title="Real-Time Anomaly Detection Using ML Methods"
+    desc="Explore the possiblity to use anomaly detection"
+    url=""
+    badge="NEW"
+  />  
+</div>
+<div class="divider my-0"></div>
+  <HorizontalCard
+    title="Cyber Threat Emulation"
+    desc="Exploring the capability of implementing a framework to represent known threat actor groups from public sources with offense vulnerability assessment tools"
+    url="https://odr.chalmers.se/items/62874e36-08b6-4d7b-92b5-705e91cc26f4"
+  />  
+</div>
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Decision Support Systems and Industrial IoT in Smart Grid, Factories, and Cities"
+    desc="A Survey on Attacks and Defences on LoRaWAN Gateways"
+    url="https://www.igi-global.com/book/decision-support-systems-industrial-iot/264139"
+  />  
+</div>
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Investigation of Routing Pattern and Anomaly Analysis in Wireless Networks"
+    desc="Chalmers University together with Ublox"
+    url=""
+  />  
+ </div>
+
+</BaseLayout>
