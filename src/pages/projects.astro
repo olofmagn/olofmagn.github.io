@@ -9,43 +9,43 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="ThreatQueryX - Multi-Platform Threat Hunting Query Builder"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="A cross-platform desktop GUI tool that helps security analysts build and customize threat hunting queries for platforms like Qradar, Elastic and Defender."
+    url="https://github.com/olofmagn/threatqueryx"
     badge="NEW"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="IocQueryX - IOC Query Generator"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="A simple python script that generate platform-specific queries (e.g., AQL, Elasticsearch, Defender) from input lists of IP addresses, domain names, or file hashes to identify first point of contact."
+    url="https://github.com/olofmagn/iocqueryx"
   />
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
   </div>
 
+  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
+    title="Auto-recon"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    desc="Another recon tool to quickly perform reconnaissance on a target in an organized fashion for bug bounty sessions."
+    url="https://github.com/olofmagn/auto-recon"
+  />
+
+  <HorizontalCard
+    title="IDS Service Name Searcher"
+    img="/post_img.webp"
+    desc="This tool helps analysts quickly identify rules related to a particular service (e.g., Apache Kylin, MySQL) by scanning the msg field in alert definitions in rule sets for intrusion detection systems like Suricata and Snort."
+    url="https://github.com/olofmagn/ids_service_identifier"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
+    title="IDS Rule Inventory Classifier"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="This Python tool analyzes and classifies Suricata rules by detecting key signature types such as hex patterns, string matches, PCREs, and file hashes."
+    url="https://github.com/olofmagn/ids_rules_classify"
   />
 </BaseLayout>
