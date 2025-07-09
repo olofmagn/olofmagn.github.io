@@ -1,5 +1,5 @@
 ---
-title: "IDS rulesets"
+title: "Building IDS rulesets"
 description: "Understanding the wide number of rules in categories in IDS systems"
 pubDate: "Mars 10 2025"
 heroImage: "/design-ids.png"
