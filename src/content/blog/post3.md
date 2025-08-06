@@ -15,7 +15,7 @@ Security teams often receive IOCs (Indicators of Compromise) from threat intel f
 The script currently supports query formats for:
 
 - QRadar (AQL)
-- Elasticsearch (ECS)
+- Elasticsearch (KQL)
 - Microsoft Defender Advanced Hunting (KQL)
 
 In summary, this tool saves time, reduces manual error, and helps you focus on the investigation rather than formatting syntax. Whether you're in a SOC or running your own home lab, it's a handy utility to have in your toolkit.
