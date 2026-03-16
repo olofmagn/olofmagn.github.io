@@ -3,7 +3,6 @@ title: "Automating Threat Hunting with IOC-Driven Queries"
 description: "Generate platform-specific queries (QRadar, Elastic, Defender) from IPs, domains, or hashes to speed up your threat hunting workflow."
 pubDate: "July 20 2025"
 heroImage: "/post_img.webp"
-badge: "NEW"
 tags: ["threat-hunting","python", "automation"]
 ---
 
