@@ -5,6 +5,7 @@ pubDate: "Mar 16 2026"
 heroImage: "/post_img.webp"
 badge: "NEW"
 tags: ["recon", "python", "automation"]
+badge: "NEW"
 ---
 
 You've got five terminals open, three half-finished scans, and a downloads folder full of files named `output_final_v2.txt`. Recon without structure is noise.
