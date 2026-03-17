@@ -3,7 +3,6 @@ title: "Mapping the Battlefield: Automated Recon Like an Adversary"
 description: "Automate Your Way into the Attack Surface."
 pubDate: "Mar 16 2026"
 heroImage: "/post_img.webp"
-badge: "NEW"
 tags: ["recon", "python", "automation"]
 badge: "NEW"
 ---
