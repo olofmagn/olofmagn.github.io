@@ -8,7 +8,7 @@ badge: "NEW"
 ---
 
 You've got five terminals open, three half-finished scans, and a downloads folder full of files named `output_final_v2.txt`. Recon without structure is noise.
-`scripts` is a small collection of shell and Python tools — subfinder, jsfinder, archivefinder, bypass403, and a few others — built to make passive and active recon repeatable and organized across every target.
+`scripts` is a small collection of shell and Python tools — `subfinder`, `jsfinder`, `archivefinder`, `bypass403`, and a few others — built to make passive and active recon repeatable and organized across every target.
 
 In this post I'll walk through each script briefly, what it does, and in which context they are useful.
 
@@ -16,7 +16,7 @@ In this post I'll walk through each script briefly, what it does, and in which c
 
 The first script in the toolkit is `archivefinder.sh`, and it's often where I normally start. Targets leave traces like old backups, exposed configs/js files, leaked keys, forgotten archives — they get crawled by the Wayback Machine and indexed forever, even if the file was taken down years ago. 
 
-It hits the Wayback Machine CDX API and pulls every possible URL for the target and deduplicates it using `uro` and filters down to sensitive extension like `.env`, `.pem`, `.sql`, `.zip` and more. 
+The script hits the Wayback Machine CDX API and pulls every possible URL for the target and deduplicates it using `uro` and filters down to sensitive extension like `.env`, `.pem`, `.sql`, `.zip` and more. 
 
 ```bash
 ./archivefinder.sh target.com
