@@ -4,17 +4,16 @@ description: "Automate Your Way into the Attack Surface."
 pubDate: "Mar 16 2026"
 heroImage: "/post_img.webp"
 tags: ["recon", "python", "automation"]
-badge: "NEW"
 ---
 
 You've got five terminals open, three half-finished scans, and a downloads folder full of files named `output_final_v2.txt`. Recon without structure is noise.
-`scripts` is a small collection of shell and Python tools — `subfinder`, `jsfinder`, `archivefinder`, `bypass403`, and a few others — built to make passive and active recon repeatable and organized across every target.
+`scripts` is a small collection of shell and Python tools - `subfinder`, `jsfinder`, `archivefinder`, `bypass403`, and a few others - built to make passive and active recon repeatable and organized across every target.
 
 In this post I'll walk through each script briefly, what it does, and in which context they are useful.
 
 **archivefinder.sh - Mining the Wayback Machine for Forgotten Files**
 
-The first script in the toolkit is `archivefinder.sh`, and it's often where I normally start. Targets leave traces like old backups, exposed configs/js files, leaked keys, forgotten archives — they get crawled by the Wayback Machine and indexed forever, even if the file was taken down years ago. 
+The first script in the toolkit is `archivefinder.sh`, and it's often where I normally start. Targets leave traces like old backups, exposed configs/js files, leaked keys, forgotten archives - they get crawled by the Wayback Machine and indexed forever, even if the file was taken down years ago. 
 
 The script hits the Wayback Machine CDX API and pulls every possible URL for the target and deduplicates it using `uro` and filters down to sensitive extension like `.env`, `.pem`, `.sql`, `.zip` and more. 
 
@@ -40,7 +39,7 @@ GitHub and Shodan are particually interesting because developers tend to commit 
 
 **bypass403.sh - Breaking Through Access Controls**
 
-A 403 during recon isn't a dead end — it's an invitation. `bypass403.sh` is a comprehensive HTTP 403 bypass tester that throws everything possible at a restricted endpoint: path manipulation, header spoofing, method tampering, encoding tricks, and user-agent rotation. 
+A 403 during recon isn't a dead end - it's an invitation. `bypass403.sh` is a comprehensive HTTP 403 bypass tester that throws everything possible at a restricted endpoint: path manipulation, header spoofing, method tampering, encoding tricks, and user-agent rotation. 
 
 ```bash
 ./bypass403.sh -u https://target.com/admin
