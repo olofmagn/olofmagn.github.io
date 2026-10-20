@@ -2,11 +2,7 @@
 title: "DWR service harvesting"
 description: "Enumerating DWR methods leading to information disclosure"
 pubDate: "Oct 20 2026"
-<<<<<<< HEAD
-heroImage: "/public/java.svg"
-=======
 heroImage: "/java.webp"
->>>>>>> 4b63ca5 (fix: add correct image)
 tags: ["pentest", "dwr", "automation"]
 badge: "NEW"
 ---
